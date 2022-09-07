@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&family=Ubuntu:wght@400&display=swap');
+
+html {
+  background: url(images/IndoorBall.jpg) no-repeat;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+  min-width: 1000px;
+}
+
+.container {
+  width: 90%;
+  border: 1px solid black;
+  box-shadow: 3px 3px 10px 3px black;
+  border-radius: 15px;
+  margin: auto;
+  background-color: rgba(198, 214, 153, 0.9);
+  padding: 2em;
+  padding-top: 0em;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5em;
+  border: 1px dotted black;
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 3em;
+  text-shadow: 3px 3px 10px black;
+  background-image: linear-gradient(to right, red, orange,yellow,green);
+  border-radius: 15px;
+}
+
+nav{
+  flex: 4;
+  padding-right: 0.2em;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+nav li {
+  padding: 15px;
+  background-color: lightyellow;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-bottom: 0.2em;
+}
+
+nav ul {
+  padding-left: 0%;
+  list-style: none;
+  text-align: center;
+  margin: 0em;
+}
+
+#selectedIndex{
+  background-color: rgb(76, 76, 187);
+}
+
+#selectedIndex a{
+  color: white;
+}
+
+#flexbox {
+  display: flex;
+}
+
+main{
+  flex: 6;
+}
+
+footer {
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, red, orange,yellow,green);
+  font-weight: bold;
+}
+
+.fieldStyle {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+label {
+  width: 15%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+input,
+textarea {
+  width: 60%;
+}
+
+#date{
+  width: 20%;
+}
+
+textarea {
+  height: 5em;
+}
+
+legend{
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 3px solid black;
+  color: white;
+  background-color: rgb(76, 76, 187);
+  padding: 0.5em 3em;
+}
+
+#appointmentInformation{
+  background-color: lightyellow;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#contentStyle {
+  padding-left: 1em;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.buttonStyle{
+  padding-top: 0.4em;
+  text-align: center;
+
+}
+
+.buttonConfig{
+  padding: 20px 16px;
+  font-size: medium;
+  text-align: center;
+}
+
+.buttonStyle input{
+width: 20%;
+}

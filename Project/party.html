@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="party.css">
+    <link rel="icon" href="images/favicon.png" type="images/ico">
+    <script src="scriptControl.js" defer></script>
+    <title>Kids4Fun</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <header>
+                <h1>KIDS 4 FUN PLAYGROUND</h1>
+            </header>
+            <div id="flexbox">
+                <div id="navList">
+                    <nav>
+                        <ul>
+                            <li><a href="mainPage.html">Home</a></li>
+                            <li id="selectedIndex"><a href="party.html">Parties</a></li>
+                            <li><a href="agenda.html">Agenda</a></li>
+                            <li><a href="reserve.html">Reserve</a></li>
+                            <li><a href="photoVideo.html">Photos & Videos</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <main>
+                   <div id="flexContent">
+                    <div id="economicParty">
+                        <h2>Economic Party</h2>
+                        <div>
+                            <figure>
+                                <img src="images/economic.jpg" alt="Economic Package">
+                                <figcaption>Economic Package</figcaption>
+                              </figure>
+                           </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ea similique velit dolores dolorum, vel fuga nisi optio minus delectus fugit! Tempora pariatur recusandae eius quia officia a assumenda libero.</p>
+                        <div class="checkPrice">
+                            <h3>Check Price here!!</h3>
+                            <p class="priceTag"> $15.00 per guest</p>
+                            <form>
+                                <div>
+                                    <label for="guestsEconomic">Number of Guests:</label>
+                                    <input type="number" name="guestsEconomic" id="guestsEconomic">
+                                    <div class="buttonStyle">
+                                        <input type="button" onclick="calculateValue('E');" value="Check Price">    
+                                    </div>
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                    <div id="classicParty">
+                        <h2>Classic Party</h2>
+                        <div>
+                            <figure>
+                                <img src="images/classic.jpg" alt="Classic Package">
+                                <figcaption>Classic Package</figcaption>
+                              </figure>
+                           </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt repellendus mollitia facere ab vero. Quaerat amet quis incidunt optio eveniet at, dolorem consectetur possimus, unde, nobis aperiam sunt aliquam sint?</p>
+                        <div class="checkPrice">
+                            <h3>Check Price here!!</h3>
+                            <p class="priceTag"> $25.00 per guest</p>
+                            <form>
+                                <div>
+                                    <label for="guestsClassic">Number of Guests:</label>
+                                    <input type="number" name="guestsClassic" id="guestsClassic">
+                                    <div class="buttonStyle">
+                                        <input type="button" onclick="calculateValue('C');" value="Check Price">    
+                                    </div>
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                    <div id="premiumParty">
+                        <h2>Premium Party</h2>
+                        <div>
+                            <figure>
+                                <img src="images/premium.jpg" alt="Premium Package">
+                                <figcaption>Premium Package</figcaption>
+                              </figure>
+                           </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores itaque fugit nesciunt iusto distinctio amet delectus ad magnam quaerat nisi consequatur reprehenderit, odio architecto at dignissimos et, iste voluptatibus ipsam.</p>
+                        <div class="checkPrice">
+                            <h3>Check Price here!!</h3>
+                            <p class="priceTag"> $35.00 per guest</p>
+                            <form>
+                                <div>
+                                    <label for="guestsPremium">Number of Guests:</label>
+                                    <input type="number" name="guestsPremium" id="guestsPremium">
+                                    <div class="buttonStyle">
+                                        <input type="button" onclick="calculateValue('P');" value="Check Price">    
+                                    </div>
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                   </div>
+                </main>
+            </div>
+            <footer>
+                Copyright &copy;2022 Andre Piccolo 300347025
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

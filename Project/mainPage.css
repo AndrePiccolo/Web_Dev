@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&family=Ubuntu:wght@400&display=swap');
+
+html {
+  background: url(images/IndoorBall.jpg) no-repeat;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 90%;
+  border: 1px solid black;
+  box-shadow: 3px 3px 10px 3px black;
+  border-radius: 15px;
+  margin: auto;
+  background-color: rgba(198, 214, 153, 0.9);
+  padding: 2em;
+  padding-top: 0em;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5em;
+  border: 1px dotted black;
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 3em;
+  text-shadow: 3px 3px 10px black;
+  background-image: linear-gradient(to right, red, orange,yellow,green);
+  border-radius: 15px;
+}
+
+nav{
+  flex: 4;
+  padding-right: 0.2em;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+nav li {
+  padding: 15px;
+  background-color: lightyellow;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-bottom: 0.2em;
+}
+
+nav ul {
+  padding-left: 0%;
+  list-style: none;
+  text-align: center;
+  margin: 0em;
+}
+
+#selectedIndex{
+  background-color: rgb(76, 76, 187);
+}
+
+#selectedIndex a{
+  color: white;
+}
+
+#flexbox {
+  display: flex;
+}
+
+main{
+  flex: 6;
+}
+
+img{
+  width: 50%;
+  height: auto;
+  box-shadow: 3px 3px 10px 3px indigo;
+}
+
+figure{
+  text-align: center;
+}
+
+figcaption{
+  margin-top: 0.2em;
+  font-size: small;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2{
+  background-color: rgb(76, 76, 187);
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: white;
+  padding: 0.5em 0em;
+}
+
+p{
+  padding: 2em 3em;
+  border: 1px dotted black;
+  margin: 2em;
+  margin-top: 0.5em;
+  background-color: lightyellow;
+
+}
+
+footer {
+  margin-top: 1em;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, red, orange,yellow,green);
+  font-weight: bold;
+}

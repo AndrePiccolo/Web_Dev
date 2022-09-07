@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reserve.css">
+    <link rel="icon" href="images/favicon.png" type="images/ico">
+    <script src="scriptControl.js" defer></script>
+    <title>Kids4Fun</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <header>
+                <h1>KIDS 4 FUN PLAYGROUND</h1>
+            </header>
+            <div id="flexbox">
+                <div id="navList">
+                    <nav>
+                        <ul>
+                            <li><a href="mainPage.html">Home</a></li>
+                            <li><a href="party.html">Parties</a></li>
+                            <li><a href="agenda.html">Agenda</a></li>
+                            <li id="selectedIndex"><a href="reserve.html">Reserve</a></li>
+                            <li><a href="photoVideo.html">Photos & Videos</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <main>
+                    <div id="contentStyle">
+                        <fieldset id="appointmentInformation">
+                            <legend>Reservation</legend>
+                            <form>
+                                <div class="fieldStyle">
+                                    <label for="firstName">First Name:</label>
+                                    <input type="text" name="firstName" id="firstName" required>
+                                </div>
+                                <div class="fieldStyle">
+                                    <label for="lastName">Last Name:</label>
+                                    <input type="text" name="lastName" id="lastName" required>
+                                </div>
+                                <div class="fieldStyle">
+                                    <label for="date">Date:</label>
+                                    <input type="date" name="date" id="date" required>
+                                </div>
+                                <div class="fieldStyle">
+                                    <label for="emailField">Email:</label>
+                                    <input type="email" name="emailField" id="emailField" required>
+                                </div>
+                                <div class="fieldStyle">
+                                    <label for="phoneNumber">Phone:</label>
+                                    <input type="tel" name="phoneNumber" id="phoneNumber" required>
+                                </div>
+                                <div class="fieldStyle">
+                                    <label for="comments">Comments:</label>
+                                    <textarea name="comments" id="comments"></textarea>
+                                </div>
+                                <div class="buttonStyle">
+                                    <input type="button" class="buttonConfig" onclick="newAppointment(this.form);" value="Reserve">
+                                    <input type="reset" class="buttonConfig" value="Cancel">
+                                </div>   
+                            </form>
+                        </fieldset>
+                    </div>
+                </main>    
+            </div>
+            <footer>
+                Copyright &copy;2022 Andre Piccolo 300347025
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

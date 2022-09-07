@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="agenda.css">
+    <link rel="icon" href="images/favicon.png" type="images/ico">
+    <script src="scriptControl.js" defer></script>
+    <title>Kids4Fun</title>
+</head>
+<body onload="populateCalendar();">
+    <div class="container">
+        <div>
+            <header>
+                <h1>KIDS 4 FUN PLAYGROUND</h1>
+            </header>
+            <div id="flexbox">
+                <div id="navList">
+                    <nav>
+                        <ul>
+                            <li><a href="mainPage.html">Home</a></li>
+                            <li><a href="party.html">Parties</a></li>
+                            <li id="selectedIndex"><a href="agenda.html">Agenda</a></li>
+                            <li><a href="reserve.html">Reserve</a></li>
+                            <li><a href="photoVideo.html">Photos & Videos</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <main>
+                    <div>
+                        <form>
+                            <div id="calendar">
+                                <table id="calendarTable">
+                                    <caption id="currentMonth">Month</caption>
+                                    <tr>
+                                        <th scope="col">Sun</th>
+                                        <th scope="col">Mon</th>
+                                        <th scope="col">Tue</th>
+                                        <th scope="col">Wed</th>
+                                        <th scope="col">Thu</th>
+                                        <th scope="col">Fri</th>
+                                        <th scope="col">Sat</th>
+                                    </tr>
+                                    <tr>
+                                        <td id="1"></td>
+                                        <td id="2"></td>
+                                        <td id="3"></td>
+                                        <td id="4"></td>
+                                        <td id="5"></td>
+                                        <td id="6"></td>
+                                        <td id="7"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="8"></td>
+                                        <td id="9"></td>
+                                        <td id="10"></td>
+                                        <td id="11"></td>
+                                        <td id="12"></td>
+                                        <td id="13"></td>
+                                        <td id="14"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="15"></td>
+                                        <td id="16"></td>
+                                        <td id="17"></td>
+                                        <td id="18"></td>
+                                        <td id="19"></td>
+                                        <td id="20"></td>
+                                        <td id="21"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="22"></td>
+                                        <td id="23"></td>
+                                        <td id="24"></td>
+                                        <td id="25"></td>
+                                        <td id="26"></td>
+                                        <td id="27"></td>
+                                        <td id="28"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="29"></td>
+                                        <td id="30"></td>
+                                        <td id="31"></td>
+                                        <td id="32"></td>
+                                        <td id="33"></td>
+                                        <td id="34"></td>
+                                        <td id="35"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="36"></td>
+                                        <td id="37"></td>
+                                        <td id="38"></td>
+                                        <td id="39"></td>
+                                        <td id="40"></td>
+                                        <td id="41"></td>
+                                        <td id="42"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="chooseDate">
+                                <div class="fieldStyle">
+                                    <label for="month">Month:</label>
+                                    <select id="month">
+                                        <option value="-1">&nbsp;</option>
+                                    </select>                                    
+
+                                    <label for="year">Year:</label>
+                                    <select id="year">
+                                        <option value="-1">&nbsp;</option>
+                                    </select> 
+                                    
+                                </div>
+                                <div class="buttonStyle">
+                                    <input type="button" id="buttonCheck" onclick="populateCalendar();" value="Check Calendar">
+                                </div>
+                            </div> 
+                        </form>
+                    </div>
+                </main>
+            </div>
+            <footer>
+                Copyright &copy;2022 Andre Piccolo 300347025
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
